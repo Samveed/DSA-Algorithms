@@ -13,7 +13,7 @@ void swap(int &a, int &b)
 int main()
 {
     int len_array; cin>>len_array;
-    int arr[] = {10,8,25,11,3};
+    int arr[] = {7,10,2, 76, 32};
 
     int next_index,elem;
     for(int i=0;i<len_array-1;i++)
