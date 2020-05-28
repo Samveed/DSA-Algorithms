@@ -15,6 +15,7 @@ int partition(int* A, int start, int end)
 {
     int pivot = A[end];
     int partition_Index = start;
+    // swap(A[partition_Index],A[end]);
     // cout<<start<<" "<<end<<endl;
     for(int i=start;i<end;i++)
     {
